@@ -13,12 +13,54 @@ header {
     justify-content: space-between;
 }
 
-header, footer, .hero-section{
+header .header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+header,
+footer,
+.hero-section {
     background-color: #1f2937;
     color: #e5e7eb;
 }
 
-ul li a{
+.hero-section .title h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a {
     text-decoration: none;
     font-size: 18px;
+    color: #e5e7eb;
+}
+
+.card-section .section-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.testimonial-section {
+    background-color: #e5e7eb;
+}
+
+.testimonial-section .quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+
+.call-to-action-section div,
+button {
+    background-color: #3882f6;
 }
