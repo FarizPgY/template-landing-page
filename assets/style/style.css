@@ -6,11 +6,17 @@
 
 body {
     font-family: 'Roboto', 'sans-serif';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 20px 20px 100px 20px;
+    gap: 30px;
 }
 
 header .header-logo {
@@ -18,11 +24,33 @@ header .header-logo {
     font-size: 24px;
 }
 
+main {
+    flex: 1;
+}
+
 header,
 footer,
 .hero-section {
     background-color: #1f2937;
     color: #e5e7eb;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-section .title {
+    width: 300px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.image img {
+    width: 300px;
+    height: auto;
 }
 
 .hero-section .title h1 {
@@ -33,6 +61,9 @@ footer,
 
 ul {
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 ul li a {
@@ -51,7 +82,7 @@ ul li a {
     background-color: #e5e7eb;
 }
 
-.testimonial-section .quote{
+.testimonial-section .quote {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
