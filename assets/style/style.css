@@ -95,3 +95,8 @@ ul li a {
 button {
     background-color: #3882f6;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
