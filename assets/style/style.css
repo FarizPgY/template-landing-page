@@ -96,6 +96,7 @@ ul li a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 50px;
 }
 
 .card {
