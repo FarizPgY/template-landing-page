@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: space-around;
     padding: 20px 20px 20px 20px;
-    gap: 30px;
+    gap: 130px;
 }
 
 header .header-logo {
@@ -106,7 +106,7 @@ ul li a {
     gap: 10px;
 }
 
-.card p{
+.card p {
     width: 150px;
     text-align: center;
 }
@@ -126,6 +126,7 @@ ul li a {
 
 .testimonial-section {
     background-color: #e5e7eb;
+    padding: 130px 170px;
 }
 
 .testimonial-section .quote {
@@ -133,6 +134,10 @@ ul li a {
     color: #1f2937;
     font-weight: 300;
     font-style: italic;
+}
+
+.testimonial-section .name {
+    font-weight: 800;
 }
 
 
