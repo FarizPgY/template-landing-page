@@ -80,6 +80,28 @@ ul li a {
     color: #e5e7eb;
 }
 
+.card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-container {
+    /* width: ; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-image {
+    border: 5px solid #00a3ff;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
 .card-section .section-title {
     font-size: 36px;
     color: #1f2937;
